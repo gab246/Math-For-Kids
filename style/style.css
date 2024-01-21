@@ -1,0 +1,41 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: #EFF1F3;
+  font-family: "Bebas Neue", "Libre Baskerville";
+}
+
+.container{
+  padding: 20px;
+  overflow: hidden;
+  background-color: #DBD3D8;
+}
+
+.container h1{
+  float: left;
+  margin-left: 5%;
+  color: #FFFF;
+  letter-spacing: 3px;
+  font-size: 50px;
+}
+
+.container ul{
+  list-style-type: none;
+  margin-left: 80%;
+  font-size: 30px;
+}
+
+.container li{
+  margin-top: 10px;
+  float: left;
+  padding: 0 20px 0 20px;
+}
+
+.container a{
+  text-decoration: none;
+  color: #FFFF;
+}
+
