@@ -39,3 +39,89 @@ body{
   color: #FFFF;
 }
 
+.current a::after {
+  content: '_';
+  background-color: #FFFF;
+  font-size: 5px; 
+  display: block;
+}
+
+.wrapper{
+  display: grid;
+  grid-template-columns: 50% 10%;
+  color: #beb6bb;
+  place-content: center;
+}
+
+.equation{
+  background-color: #FFFF;
+  border-radius: 10px;
+  font-size: 70px;
+  padding-top: 15%;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.equation h1{
+  display: inline;
+  padding: 20px;
+} 
+
+
+.answerOptions{
+  font-size: 70px;
+  margin-right: 10px;
+}
+
+.answerOptions h1{
+  cursor: pointer;
+  color: #ffff;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+#option1{
+  background-color: #6A4C9A;
+  transition: 2s;
+}
+
+#option1:hover{
+  color: #6A4C9A;
+  background-color: #FFFF;
+}
+
+#option2{
+  background-color: #FFCA3A;
+  transition: 2s;
+}
+
+#option2:hover{
+  color: #FFCA3A;
+  background-color: #FFFF;
+}
+
+#option3{
+  background-color: #1982C4;
+  transition: 2s;
+}
+
+#option3:hover{
+  color: #1982C4;
+  background-color: #FFFF;
+}
+
+#num1{
+  color: #6A4C9A;
+}
+
+#num2{
+  color: #1982C4;
+}
+
+#answer{
+  color: #FFCA3A;
+}
