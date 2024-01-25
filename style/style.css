@@ -15,7 +15,6 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  
 }
 
 .container h1{
@@ -126,4 +125,52 @@ body{
 
 #answer{
   color: #FFCA3A;
+}
+
+@media all and (min-width: 50px) and (max-width: 1000px) {
+  
+  .container{
+    padding: 10px;
+  }
+
+  .container h1{
+    letter-spacing: 3px;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .container ul{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .answerOptions{
+    font-size: 30px;
+  }
+
+  .wrapper{
+  display: grid;
+  grid-template-columns: 70%; 
+  }
+
+  .equation{
+    font-size: 30px;
+   
+  }
+  
+  .equation h1{
+    display: inline;
+    padding: 20px;
+  } 
+
+  .current a::after {
+    content: '_';
+    font-size: 2px; 
+    
+  }
+  
+  
 }
