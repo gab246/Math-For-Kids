@@ -12,11 +12,13 @@ body{
   padding: 20px;
   overflow: hidden;
   background-color: #DBD3D8;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
 }
 
 .container h1{
-  float: left;
-  margin-left: 5%;
   color: #FFFF;
   letter-spacing: 3px;
   font-size: 50px;
@@ -24,13 +26,13 @@ body{
 
 .container ul{
   list-style-type: none;
-  margin-left: 80%;
+  display: flex;
+  flex-direction: row;
   font-size: 30px;
 }
 
 .container li{
   margin-top: 10px;
-  float: left;
   padding: 0 20px 0 20px;
 }
 
