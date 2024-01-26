@@ -15,6 +15,7 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  
 }
 
 .container h1{
@@ -127,7 +128,54 @@ body{
   color: #FFCA3A;
 }
 
-@media all and (min-width: 50px) and (max-width: 1000px) {
+
+
+@media all and (min-width: 50px) and (max-width: 250px) {
+  .container{
+    padding: 5px;
+  }
+
+  .container h1{
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .container ul{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .answerOptions{
+    font-size: 15px;
+  }
+
+  .wrapper{
+  display: grid;
+  grid-template-columns: 60%; 
+  }
+
+  .equation{
+    font-size: 15px;
+  }
+  
+  .equation h1{
+    display: inline;
+    padding: 5px;
+  } 
+
+  .current a::after {
+    content: '_';
+    font-size: 2px; 
+    
+  }
+}
+
+
+@media all and (min-width: 251px) and (max-width: 1000px) {
   
   .container{
     padding: 10px;
@@ -135,7 +183,7 @@ body{
 
   .container h1{
     letter-spacing: 3px;
-    font-size: 40px;
+    font-size: 35px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -163,7 +211,7 @@ body{
   
   .equation h1{
     display: inline;
-    padding: 20px;
+    padding: 13px;
   } 
 
   .current a::after {
@@ -171,6 +219,5 @@ body{
     font-size: 2px; 
     
   }
-  
   
 }
